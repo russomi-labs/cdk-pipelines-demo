@@ -9,7 +9,7 @@ PIPELINE_ACCOUNT = '123456789012'
 app = core.App()
 PipelineStack(app, 'PipelineStack', env={
   'account': PIPELINE_ACCOUNT,
-  'region': 'eu-central-1',
+  'region': 'us-east-1',
 })
 
 app.synth()
